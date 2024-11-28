@@ -4,7 +4,7 @@
     "group": "BONUS",
     "name": "Lê Hồ Hải Yến",
     "position": "<<CHỨC VỤ>>",
-    "image": "../images/avatar/TSC0740.jpg",
+    "image": "../assets/img/user/bonus/TSC0740/TSC0740.png",
     "social_links": [
       {
         "name": "email",
@@ -35,7 +35,7 @@
         "icon": "fa-brands fa-weixin",
         "text": "Hai Yen",
         "url": "https://u.wechat.com/kDFQ_7MNT9AYA3nXKESL_tI?s=2",
-        "image": "../images/wechat/TSC0740.jpg"
+        "image": "../assets/img/user/bonus/TSC0740/wechat.png"
       },
       {
         "name": "instagram",
@@ -48,7 +48,33 @@
         "icon": "fa-brands fa-whatsapp",
         "text": "Hai Yen",
         "url": "https://www.instagram.com/lhhai_yen/",
-        "image": "../images/whatsapp/TSC0740.jpg"
+        "image": "../assets/img/user/bonus/TSC0740/whatsapp.png"
+      }
+    ]
+  },
+  {
+    "id": "TSC0469",
+    "group": "Phòng KHKD",
+    "name": "Võ Phạm Hùng Mạnh",
+    "position": "Chuyên viên Xuất Nhập Khẩu",
+    "address": "Lô đất số 45 đường số 2, KCN Trà Nóc 1, P. Trà Nóc, Q. Bình Thuỷ, TP. Cần Thơ",
+    "image": null,
+    "email": "vphungmanh.theptaydo@gmail.com",
+    "phone": "907920421",
+    "social_links": [
+      {
+        "name": "zalo",
+        "url": "zalo.me/0907920421"
+      },
+      {
+        "name": "facebook",
+        "url": null
+      },
+      {
+        "name": "wechat",
+        "text": "武范雄孟 (Mạnh Võ)",
+        "url": "https://u.wechat.com/kDFQ_7MNT9AYA3nXKESL_tI?s=2",
+        "image": "../assets/img/user/KHKD/TSC0469-wechat.png"
       }
     ]
   }
