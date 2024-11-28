@@ -16,7 +16,7 @@
     content="width=device-width, user-scalable=no initial-scale=1, shrink-to-fit=no, viewport-fit=cover">
 
   <meta property="og:title" content="ZhgChgLi's Links" />
-  <meta name="author" content="@zhgchgli" />
+  <meta name="author" content="@theanishtar" />
   <meta property="og:locale" content="en" />
   <meta name="description"
     content="An iOS, web, and automation developer from Taiwan 🇹🇼 who also loves sharing, traveling, and writing." />
@@ -42,6 +42,7 @@
 
 
   <link rel="stylesheet" href="./styles.css" />
+  <link rel="stylesheet" href="./popup.css">
 </head>
 
 <body>
@@ -55,7 +56,7 @@
         <div class="button-group">
 
 
-          <a href="" title="ZhgChgLi's Medium" target="_blank" class="icon-button" alt="ZhgChgLi's Medium">
+          <a href="#" title="ZhgChgLi's Medium" target="_blank" class="icon-button" alt="ZhgChgLi's Medium">
             <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
             <svg width="25px" height="25px" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M3 1H1V3H3C8.52285 3 13 7.47715 13 13V15H15V13C15 6.37258 9.62742 1 3 1Z" fill="#FFFFFF" />
@@ -68,7 +69,7 @@
           </a>
 
 
-          <a href="" title="ZhgChgLi's GitHub" target="_blank" class="icon-button" alt="ZhgChgLi's GitHub">
+          <a href="https://instagram.com/theanishtar" title="" target="_blank" class="icon-button" alt="">
             <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
             <svg width="30px" height="30px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path fill-rule="evenodd" clip-rule="evenodd"
@@ -85,7 +86,8 @@
           </a>
 
 
-          <a href="" title="ZhgChgLi's Twitter" target="_blank" class="icon-button" alt="ZhgChgLi's Twitter">
+          <a href="https://github.com/theanishtar" title="ZhgChgLi's Twitter" target="_blank" class="icon-button"
+            alt="ZhgChgLi's Twitter">
             <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
             <svg width="30px" height="30px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
@@ -114,7 +116,7 @@
           </a>
 
 
-          <a href="https://www.instagram.com/theanishtar/" title="Instagram" target="_blank" class="icon-button"
+          <a href="https://tiktok.com/@theanishtar" title="" target="_blank" class="icon-button"
             alt="ZhgChgLi's Instagram">
             <!-- <i class="fa-brands fa-instagram"></i> -->
             <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
@@ -150,7 +152,7 @@
         </div>
       </div>
 
-      <p class="description">Fullstack developer</p>
+      <p class="description">Fullstack developer <span><a href="https://devlands.io.vn">@devlands</a></span></p>
     </div>
 
     <div class="links">
@@ -189,7 +191,7 @@
 
       <a href="https://dangth.dev/" target="_blank" class="link-button" alt="ZhgChgLi's Website"
         title="ZhgChgLi's Website">
-        <i class="fa-solid fa-rss"></i> Portfolio
+        <i class="fa-regular fa-address-card"></i> Portfolio
       </a>
 
 
@@ -200,25 +202,41 @@
       </a>
 
 
-      <a href="" target="_blank" class="link-button"
+      <a href="https://github.com/davilands" target="_blank" class="link-button"
         alt="ZReviewTender is a tool for fetching app reviews from the App Store and Google Play Console and integrating them into your workflow."
         title="ZReviewTender is a tool for fetching app reviews from the App Store and Google Play Console and integrating them into your workflow.">
         <i class="fa-brands fa-github"></i> Github <span class='link-button-text'>(theanishtar)</span>
       </a>
 
 
-      <a href="" target="_blank" class="link-button"
+      <a href="https://tiktok.com/@devlands" target="_blank" class="link-button"
         alt="ZMediumToMarkdown is a powerful tool that allows you to effortlessly download and convert your Medium posts to Markdown format."
         title="ZMediumToMarkdown is a powerful tool that allows you to effortlessly download and convert your Medium posts to Markdown format.">
-        <i class="fa-brands fa-tiktok"></i></i> Tiktok <span class='link-button-text'>(theanishtar)</span>
+        <i class="fa-brands fa-tiktok"></i></i> Tiktok <span class='link-button-text'>(devlands)</span>
       </a>
 
-
-      <a href="" target="_blank" class="link-button"
+      <a href="https://www.youtube.com/@devlands" target="_blank" class="link-button"
         alt="linkyee is a fully customized, open-source LinkTree alternative deployed directly on GitHub Pages."
         title="linkyee is a fully customized, open-source LinkTree alternative deployed directly on GitHub Pages.">
         <i class="fa-brands fa-youtube"></i> YouTube <span class='link-button-text'>(FroggyDev)</span>
       </a>
+
+      <a href="javascript:void(0);" class="link-button"
+        onclick="togglePopup(null, null, './images/wechat/wechat-davis.jpg')">
+        <i class="fa-brands fa-weixin"></i> Wechat <span class='link-button-text'>(Davis Tran)</span>
+      </a>
+
+      <a href="javascript:void(0);" class="link-button" onclick="togglePopup(null, null, './images/pay/payment.png')">
+        <i class="fa-solid fa-money-check-dollar"></i> Pay <span class='link-button-text'>(Tran Huu Dang)</span>
+      </a>
+
+      <div id="popup" class="popup">
+        <span></span>
+        <p></p>
+        <img src="" alt="" srcset="">
+      </div>
+      <div id="overlay" class="overlay" onclick="closePopup()"></div>
+
 
     </div>
 

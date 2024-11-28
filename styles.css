@@ -27,6 +27,7 @@ a {
 }
 
 .container {
+  margin-top: 30px;
   width: 90%;
   max-width: 450px;
 }
@@ -87,6 +88,7 @@ a {
 }
 
 .button-container {
+  margin-top: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
