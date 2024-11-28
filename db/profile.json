@@ -5,7 +5,7 @@
     "name": "Võ Phạm Hùng Mạnh",
     "position": "Chuyên viên Xuất Nhập Khẩu",
     "address": "Lô đất số 45 đường số 2, KCN Trà Nóc 1, P. Trà Nóc, Q. Bình Thuỷ, TP. Cần Thơ",
-    "image": "../images/avatar/TSC0469.jpg",
+    "image": "https://github.com/theptaydo/bio/blob/main/images/avatar/TSC0469.jpg?raw=true",
     "email": "vphungmanh.theptaydo@gmail.com",
     "phone": "907920421",
     "social_links": [
@@ -35,7 +35,7 @@
         "icon": "fa-brands fa-weixin",
         "text": "武范雄孟 (Mạnh Võ)",
         "url": "https://u.wechat.com/kDFQ_7MNT9AYA3nXKESL_tI?s=2",
-        "image": "../assets/img/user/KHKD/TSC0469-wechat.png"
+        "image": "https://github.com/theptaydo/bio/blob/main/images/wechat/TSC0469.jpg?raw=true"
       }
     ]
   },
@@ -44,7 +44,7 @@
     "group": "BONUS",
     "name": "Lê Hồ Hải Yến",
     "position": "<<CHỨC VỤ>>",
-    "image": "../images/avatar/TSC0740.jpg",
+    "image": "https://github.com/theptaydo/bio/blob/main/images/avatar/TSC0740.jpg?raw=true",
     "social_links": [
       {
         "name": "email",
@@ -75,7 +75,7 @@
         "icon": "fa-brands fa-weixin",
         "text": "Hai Yen",
         "url": "https://u.wechat.com/kDFQ_7MNT9AYA3nXKESL_tI?s=2",
-        "image": "../images/wechat/TSC0740.jpg"
+        "image": "https://github.com/theptaydo/bio/blob/main/images/wechat/TSC0740.jpg?raw=true"
       },
       {
         "name": "instagram",
@@ -88,7 +88,7 @@
         "icon": "fa-brands fa-whatsapp",
         "text": "Hai Yen",
         "url": "https://www.instagram.com/lhhai_yen/",
-        "image": "../images/whatsapp/TSC0740.jpg"
+        "image": "https://github.com/theptaydo/bio/blob/main/images/whatsapp/TSC0740.jpg?raw=true"
       }
     ]
   }
