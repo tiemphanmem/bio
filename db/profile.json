@@ -2,13 +2,19 @@
   {
     "id": "TSC0469",
     "group": "Phòng KHKD",
-    "name": "Võ Phạm Hùng Mạnh",
+    "name": "Võ Phạm Hùng Mạnh - Michael Wu / 武范雄孟",
     "position": "Chuyên viên Xuất Nhập Khẩu",
     "address": "Lô đất số 45 đường số 2, KCN Trà Nóc 1, P. Trà Nóc, Q. Bình Thuỷ, TP. Cần Thơ",
     "image": "https://github.com/theptaydo/bio/blob/main/images/avatar/TSC0469.jpg?raw=true",
     "email": "vphungmanh.theptaydo@gmail.com",
     "phone": "907920421",
     "social_links": [
+      {
+        "name": "email",
+        "icon": "fa-regular fa-envelope",
+        "text": "manhvph@theptaydo.com",
+        "url": "mailto:manhvph@theptaydo.com"
+      },
       {
         "name": "email",
         "icon": "fa-regular fa-envelope",
@@ -36,6 +42,18 @@
         "text": "武范雄孟 (Mạnh Võ)",
         "url": "https://u.wechat.com/kDFQ_7MNT9AYA3nXKESL_tI?s=2",
         "image": "https://github.com/theptaydo/bio/blob/main/images/wechat/TSC0469.png?raw=true"
+      },
+      {
+        "name": "viber",
+        "icon": "fa-brands fa-viber",
+        "text": "+84907920421",
+        "url": "viber://add?number=0907920421"
+      },
+      {
+        "name": "whatsapp",
+        "icon": "fa-brands fa-whatsapp",
+        "text": "+84907920421",
+        "url": "https://wa.me/0907920421"
       }
     ]
   },
