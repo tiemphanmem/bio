@@ -48,13 +48,13 @@
         "name": "viber",
         "icon": "fa-brands fa-viber",
         "text": "+84907920421",
-        "url": "viber://add?number=0907920421"
+        "url": "viber://add?number=84907920421"
       },
       {
         "name": "whatsapp",
         "icon": "fa-brands fa-whatsapp",
         "text": "+84907920421",
-        "url": "https://wa.me/0907920421"
+        "url": "https://wa.me/84907920421"
       }
     ]
   },
