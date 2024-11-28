@@ -12,12 +12,6 @@
       {
         "name": "email",
         "icon": "fa-regular fa-envelope",
-        "text": "manhvph@theptaydo.com",
-        "url": "mailto:manhvph@theptaydo.com"
-      },
-      {
-        "name": "email",
-        "icon": "fa-regular fa-envelope",
         "text": "vphungmanh.theptaydo@gmail.com",
         "url": "mailto:vphungmanh.theptaydo@gmail.com"
       },
