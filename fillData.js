@@ -11,7 +11,7 @@ async function updateEmployeeInfo() {
 
   try {
     // Fetch data từ file JSON
-    const response = await fetch('./db/profile.json'); // Cập nhật đường dẫn file JSON
+    const response = await fetch('./db/person.json'); // Cập nhật đường dẫn file JSON
     const data = await response.json();
 
     // Tìm thông tin nhân viên theo ID
@@ -19,7 +19,7 @@ async function updateEmployeeInfo() {
 
     if (employee) {
       // Cập nhật các phần tử HTML
-      document.getElementById('avatar').src = employee.image || './assets/img/avatar/default-avatar.png';
+      document.getElementById('avatar').src = employee.image || './images/avatar/default.png';
       document.getElementById('fullname').textContent = employee.name;
       document.getElementById('position').textContent = employee.position;
 
