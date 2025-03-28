@@ -84,34 +84,20 @@ async function updateEmployeeInfo() {
 }
 
 function generateVCard(employee) {
-  const vCard =
-    `BEGIN:VCARD
-      VERSION:3.0
-      FN:${employee.name}
-      N:${employee.name};;;;
-      TITLE:${employee.position}
-      ORG:${employee.group}
-      TEL;TYPE=CELL:${employee.phone}
-      EMAIL;TYPE=INTERNET:${employee.email}
-      ADR;TYPE=WORK:;;${employee.address}
-      PHOTO;VALUE=URI:${employee.image}
-      URL:${(employee.social_links.find(link => link.name === 'facebook') || {}).url || ''}
-    END:VCARD`;
-
-  const blob = new Blob([vCard], { type: 'text/vcard' });
-  const a = document.createElement('a');
-  a.href = URL.createObjectURL(blob);
-  a.download = `${employee.name.replace(/\s+/g, '_')}.vcf`;
-  a.click();
+  const filename = `${employee.id}_${employee.name.replace(/\s+/g, '_')}.vcf`;
+  const vcfPath = `./.vcf/${filename}`;
+  // const vcfPath = `https://raw.githubusercontent.com/theptaydo/bio-v2/88e242bcb4e2b6a24c079d4007fc7299da6f89f4/.vcf/TSC0864_Hoang_Khanh_Trang.vcf`;
+  window.location.href = vcfPath; // Mở trực tiếp file .vcf
 }
 
-// Gắn sự kiện nút "Thêm danh bạ"
+// Gắn sự kiện sau khi DOM sẵn và có dữ liệu nhân viên
 const saveBtn = document.getElementById('save-vcard-btn');
 if (saveBtn) {
   saveBtn.addEventListener('click', () => {
     generateVCard(person);
   });
 }
+
 
 
 // Gọi hàm khi trang được tải
