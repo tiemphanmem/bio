@@ -1,0 +1,86 @@
+<body>
+  <div class="container">
+    <div class="profile">
+      <img id="avatar" src="" alt="Profile Picture" class="profile-pic" />
+      <h1 class="name" id="fullname">Hoàng Khánh Trang</h1>
+      <p class="description" id="position">Trợ lý Tổng Giám đốc</p>
+
+      <!-- ✅ Nút Tải vCard -->
+      <button class="link-button" onclick="downloadVCard()">
+        <i class="fa-regular fa-address-card"></i> Tải vCard
+      </button>
+    </div>
+
+    <div class="links" id="social-links">
+      <!-- Các link social (nếu có) -->
+    </div>
+
+    <div id="popup" class="popup">
+      <span></span>
+      <p></p>
+      <img src="" alt="" srcset="">
+    </div>
+    <div id="overlay" class="overlay" onclick="closePopup()"></div>
+
+    <footer class="footer">
+      <div class="copyright">© 2024 Powered by <a href="https://dangth.dev" target="_blank">Dangth.dev</a></div>
+    </footer>
+  </div>
+
+  <script src="fontawesome/js/all.js" data-auto-replace-svg="nest"></script>
+  <script src="./scripts.js"></script>
+  <script src="./fillData.js"></script>
+
+  <!-- ✅ Script tạo và tải vCard -->
+  <script>
+    function downloadVCard() {
+      const data = {
+        id: "TSC0864",
+        group: "Ban Tổng Giám đốc",
+        name: "Hoàng Khánh Trang",
+        position: "Trợ lý Tổng Giám đốc",
+        address: "Lô đất số 45 đường số 2, KCN Trà Nóc 1, P. Trà Nóc, Q. Bình Thuỷ, TP. Cần Thơ",
+        image: "./images/avatar/TSC0864.png",
+        email: "tranghk@theptaydo.com",
+        phone: "939201778",
+        social_links: [
+          {
+            name: "facebook",
+            url: "https://www.facebook.com/lazy.lady264",
+            text: "Trang Hoang"
+          },
+          {
+            name: "email",
+            url: "mailto:tranghk@theptaydo.com",
+            text: "tranghk@theptaydo.com"
+          },
+          {
+            name: "phone",
+            url: "tel:0888326495",
+            text: "+84 888 326 495"
+          }
+        ]
+      };
+
+      const vCard =
+        `BEGIN:VCARD
+VERSION:3.0
+FN:${data.name}
+N:${data.name};;;;
+TITLE:${data.position}
+ORG:${data.group}
+TEL;TYPE=CELL:${data.phone}
+EMAIL;TYPE=INTERNET:${data.email}
+ADR;TYPE=WORK:;;${data.address}
+PHOTO;VALUE=URI:${data.image}
+URL:${data.social_links.find(l => l.name === "facebook")?.url || ''}
+END:VCARD`;
+
+      const blob = new Blob([vCard], { type: 'text/vcard' });
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = `${data.name.replace(/\s+/g, '_')}.vcf`;
+      a.click();
+    }
+  </script>
+</body>
