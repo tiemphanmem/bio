@@ -84,12 +84,12 @@ async function updateEmployeeInfo() {
 }
 
 function generateVCard(employee) {
-  const filename = `${employee.id}_${employee.name.replace(/\s+/g, '_')}.vcf`;
-  // const vcfPath = `./.vcf/${filename}`;
-  const vcfPath = `./.vcf/${employee.id}.vcf`;
-  // const vcfPath = `https://raw.githubusercontent.com/theptaydo/bio-v2/88e242bcb4e2b6a24c079d4007fc7299da6f89f4/.vcf/TSC0864_Hoang_Khanh_Trang.vcf`;
-  window.location.href = vcfPath; // Mở trực tiếp file .vcf
+  const safeName = employee.name.replace(/\s+/g, '_').normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+  const filename = `${employee.id}_${safeName}.vcf`;
+  const vcfPath = `./vcf/${filename}`;
+  window.location.href = vcfPath;
 }
+
 
 // Gắn sự kiện sau khi DOM sẵn và có dữ liệu nhân viên
 const saveBtn = document.getElementById('save-vcard-btn');
