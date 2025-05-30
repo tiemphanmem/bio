@@ -1,87 +1,67 @@
 let person;
 
-// Function to fetch and update the data dynamically based on ID
 async function updateEmployeeInfo() {
-  // Lấy ID từ URL
   const urlParams = new URLSearchParams(window.location.search);
   const id = urlParams.get('id');
 
+  const skeleton = document.getElementById('loading-skeleton');
+  const mainContent = document.getElementById('main-content');
+
+  skeleton.style.display = 'flex';
+  mainContent.style.display = 'none';
+
   if (!id) {
-    document.body.style.display = 'none';
+    // skeleton.innerHTML = '<p style="color: white">❌ Không có ID trong URL</p>';
     return;
   }
 
   try {
-    // Fetch data từ file JSON
-    const response = await fetch('./db/person.json'); // Cập nhật đường dẫn file JSON
+    const response = await fetch('./db/person.json');
     const data = await response.json();
-
-    // Tìm thông tin nhân viên theo ID
     const employee = data.find(emp => emp.id === id);
     person = employee;
 
     if (employee) {
-      // Cập nhật các phần tử HTML
       document.getElementById('avatar').src = employee.image || './images/avatar/default.png';
       document.getElementById('fullname').textContent = employee.name;
       document.getElementById('position').textContent = employee.position;
-
       document.title = `Thông tin ${employee.name}`;
-      // Cập nhật mạng xã hội (nếu có)
-      const socialLinks = employee.social_links;
+
+      const socialLinks = employee.social_links || [];
+      const linksContainer = document.getElementById('social-links');
+      linksContainer.innerHTML = '';
+
       socialLinks.forEach(link => {
-        if (link.url) {
-          if (link.name === 'wechat' || link.name === 'whatsapp') {
-            // Chọn container để render
-            const linksContainer = document.getElementById('social-links');
-            const anchor = document.createElement('a');
-            anchor.className = 'link-button';
+        const anchor = document.createElement('a');
+        anchor.className = 'link-button';
 
-            // Xử lý các liên kết có ảnh cần popup
-            if (link.image) {
-              anchor.href = "javascript:void(0);";
-              anchor.onclick = () => togglePopup(null, null, link.image);
-            } else {
-              anchor.href = link.url;
-              anchor.target = '_blank';
-            }
-
-            // Thêm icon và text
-            anchor.innerHTML = `
-              <i class="${link.icon}"></i> ${link.name.charAt(0).toUpperCase() + link.name.slice(1)}
-              <span class='link-button-text'>(${link.text})</span>
-            `;
-
-            // Thêm vào container
-            linksContainer.appendChild(anchor);
-          } else {
-            // Chọn container để render
-            const linksContainer = document.getElementById('social-links');
-            const anchor = document.createElement('a');
-            anchor.href = link.url;
-            anchor.target = '_blank';
-            anchor.className = 'link-button';
-            anchor.alt = link.name;
-            anchor.title = link.text;
-
-            // Thêm icon và text
-            anchor.innerHTML = `<i class="${link.icon}"></i> ${link.name.charAt(0).toUpperCase() + link.name.slice(1)} <span class='link-button-text'>(${link.text})</span>`;
-
-            console.log(anchor);
-
-            // Thêm vào container
-            linksContainer.appendChild(anchor);
-          }
+        if (link.name === 'wechat' || link.name === 'whatsapp') {
+          anchor.href = 'javascript:void(0);';
+          anchor.onclick = () => togglePopup(null, null, link.image);
+        } else {
+          anchor.href = link.url;
+          anchor.target = '_blank';
         }
+
+        anchor.innerHTML = `
+          <i class="${link.icon}"></i> ${link.name.charAt(0).toUpperCase() + link.name.slice(1)}
+          <span class='link-button-text'>(${link.text})</span>
+        `;
+        linksContainer.appendChild(anchor);
       });
+
+      // ✅ Dữ liệu ok: hiển thị nội dung, ẩn skeleton
+      skeleton.style.display = 'none';
+      mainContent.style.display = 'block';
     } else {
-      console.error("Không tìm thấy nhân viên với ID:", id);
-      document.body.style.display = 'none';
+      // ❌ Không tìm thấy nhân viên
+      console.log('❌ Không tìm thấy nhân viên')
     }
   } catch (error) {
     console.error("Lỗi khi tải dữ liệu:", error);
   }
 }
+
 
 function generateVCard(employee) {
   const safeName = employee.name.replace(/\s+/g, '_').normalize("NFD").replace(/[\u0300-\u036f]/g, "");

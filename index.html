@@ -6,49 +6,91 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title></title>
 
-  <meta charset="UTF-8">
-  <meta name="last-modified" content="2024-11-27T01:11:50+0000">
-  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f7f7f7">
-  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#1b1b1e">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <meta name="viewport"
-    content="width=device-width, user-scalable=no initial-scale=1, shrink-to-fit=no, viewport-fit=cover">
-
-  <meta property="og:title" content="Bio Link" />
-  <meta name="author" content="@theanishtar" />
-  <meta property="og:locale" content="en" />
-  <meta name="description"
-    content="An iOS, web, and automation developer from Taiwan 🇹🇼 who also loves sharing, traveling, and writing." />
-  <meta property="og:description"
-    content="An iOS, web, and automation developer from Taiwan 🇹🇼 who also loves sharing, traveling, and writing." />
-  <meta property="og:site_name" content="Bio Link" />
-  <meta property="og:image" content="./images/profile.jpeg" />
-  <meta property="og:type" content="article" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta property="twitter:image" content="./images/profile.jpeg" />
-  <meta property="twitter:title" content="Bio Link" />
-
-  <link rel="apple-touch-icon" sizes="180x180" href="./images/favicons/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="./images/favicons/favicon-16x16.png">
-  <link rel="manifest" href="./images/favicons/site.webmanifest">
-  <link rel="shortcut icon" href="./images/favicons/favicon.ico">
-  <meta name="apple-mobile-web-app-title" content="Bio Link">
-  <meta name="application-name" content="Bio Link">
-  <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="msapplication-config" content="./images/favicons/browserconfig.xml">
-  <meta name="theme-color" content="#ffffff">
-
-
   <link rel="stylesheet" href="./styles.css" />
   <link rel="stylesheet" href="./popup.css">
   <link rel="stylesheet" href="./mode.css">
+  <link rel="stylesheet" href="./loading.css">
 
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: system-ui, sans-serif;
+      background: linear-gradient(to right, #3366cc, #9966cc);
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .card {
+      background-color: rgba(255, 255, 255, 0.05);
+      border-radius: 12px;
+      padding: 30px;
+      width: 90%;
+      max-width: 400px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .skeleton {
+      background: linear-gradient(90deg, #ffffff10 25%, #ffffff30 50%, #ffffff10 75%);
+      background-size: 400% 100%;
+      animation: shimmer 1.2s infinite;
+      border-radius: 8px;
+      margin: 8px 0;
+    }
+
+    .avatar-skeleton {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+    }
+
+    .name-skeleton {
+      width: 60%;
+      height: 16px;
+    }
+
+    .role-skeleton {
+      width: 40%;
+      height: 14px;
+    }
+
+    .line-skeleton {
+      width: 100%;
+      height: 38px;
+      border-radius: 6px;
+    }
+
+    @keyframes shimmer {
+      0% {
+        background-position: -400px 0;
+      }
+
+      100% {
+        background-position: 400px 0;
+      }
+    }
+  </style>
 </head>
 
 <body>
-  <div class="container">
+  <div id="loading-skeleton" class="card">
+    <div class="skeleton avatar-skeleton"></div>
+    <div class="skeleton name-skeleton"></div>
+    <div class="skeleton role-skeleton"></div>
+
+    <div style="margin-top: 20px; width: 100%;">
+      <div class="skeleton line-skeleton"></div>
+      <div class="skeleton line-skeleton"></div>
+      <div class="skeleton line-skeleton"></div>
+    </div>
+  </div>
+
+  <div class="container" id="main-content" style="display: none;">
     <div class="profile">
       <img id="avatar" src="" alt="Profile Picture" class="profile-pic" />
       <div class="left">
@@ -143,7 +185,6 @@
     </div>
 
     <div class="links">
-
       <div class="links" id="social-links">
         <!-- <a href="https://dangth.dev/" target="_blank" class="link-button" alt="ZhgChgLi's Website" title="">
           <i class="fa-regular fa-address-card"></i> Portfolio
@@ -165,10 +206,7 @@
         <img src="" alt="" srcset="">
       </div>
       <div id="overlay" class="overlay" onclick="closePopup()"></div>
-
-
     </div>
-
 
     <footer class="footer">
 
@@ -176,6 +214,7 @@
       </div>
     </footer>
   </div>
+
   <script src="fontawesome/js/all.js" data-auto-replace-svg="nest"></script>
 
   <script src="./scripts.js"></script>

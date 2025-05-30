@@ -5,7 +5,7 @@
     "name": "Huỳnh Trung Quang",
     "position": "Tổng Giám đốc",
     "address": "Lô đất số 45 đường số 2, KCN Trà Nóc 1, P. Trà Nóc, Q. Bình Thuỷ, TP. Cần Thơ",
-    "image": "https://github.com/theptaydo/bio/blob/main/images/avatar/TSC0001.png?raw=true",
+    "image": "./images/avatar/TSC0001.png",
     "email": "quanght@theptaydo.com",
     "phone": "0903500606",
     "social_links": [
