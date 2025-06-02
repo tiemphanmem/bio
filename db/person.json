@@ -235,6 +235,39 @@
     ]
   },
   {
+    "id": "TSC0189",
+    "group": "Ban Tổng Giám đốc",
+    "name": "Phan Đình Thanh",
+    "position": "Phó Tổng Giám đốc Kỹ thuật",
+    "address": "Lô đất số 45 đường số 2, KCN Trà Nóc 1, P. Trà Nóc, Q. Bình Thuỷ, TP. Cần Thơ",
+    "image": null,
+    "email": "thanhpd@theptaydo.com",
+    "phone": "0935559877",
+    "social_links": [
+      {
+        "name": "zalo",
+        "url": "https://zalo.me/0935559877",
+        "icon": "fa-solid fa-z",
+        "text": "0935559877",
+        "image": null
+      },
+      {
+        "name": "phone",
+        "icon": "fa-solid fa-phone",
+        "text": "0935559877",
+        "url": "tel:0935559877",
+        "image": null
+      },
+      {
+        "name": "email",
+        "icon": "fa-regular fa-envelope",
+        "text": "thanhpd@theptaydo.com",
+        "url": "mailto:thanhpd@theptaydo.com",
+        "image": null
+      }
+    ]
+  },
+  {
     "id": "TSC0086",
     "group": "Ban Kiểm soát nội bộ",
     "name": "Nguyễn Phan Kiều Vân",
@@ -1039,87 +1072,73 @@
   },
   {
     "id": "TSC0745",
-    "group": "Phòng Kỹ thuật",
+    "group": "Xưởng Luyện",
     "name": "Lê Thành Tân",
-    "position": "Phó phòng Kỹ thuật kiêm Trưởng ban SHE",
+    "position": "Quản đốc Xưởng Luyện",
     "address": "Lô đất số 45 đường số 2, KCN Trà Nóc 1, P. Trà Nóc, Q. Bình Thuỷ, TP. Cần Thơ",
     "image": null,
-    "email": "lethanhtanbk@gmail.com",
+    "email": "tanlt@theptaydo.com",
     "phone": "976299192",
     "social_links": [
       {
         "name": "zalo",
-        "url": null,
+        "url": "https://zalo.me/976299192",
         "icon": "fa-solid fa-z",
-        "text": null,
+        "text": "976299192",
         "image": null
       },
       {
         "name": "facebook",
         "url": null,
         "icon": "fa-brands fa-facebook",
-        "text": null,
+        "text": "Chưa có",
         "image": null
       },
       {
         "name": "wechat",
         "url": null,
         "icon": "fa-brands fa-weixin",
-        "text": null,
+        "text": "Chưa có",
         "image": null
       },
       {
         "name": "phone",
         "icon": "fa-solid fa-phone",
-        "text": "976299192",
-        "url": "tel:976299192",
+        "text": "0976299192",
+        "url": "tel:0976299192",
         "image": null
       },
       {
         "name": "email",
         "icon": "fa-regular fa-envelope",
-        "text": "lethanhtanbk@gmail.com",
-        "url": "mailto:lethanhtanbk@gmail.com",
+        "text": "tanlt@theptaydo.com",
+        "url": "mailto:tanlt@theptaydo.com",
         "image": null
       }
     ]
   },
   {
     "id": "TSC0576",
-    "group": "Phòng Kỹ thuật",
+    "group": "Xưởng Cán",
     "name": "Nguyễn Văn Trúc",
-    "position": "Phó phòng Kỹ thuật công nghệ Cán",
+    "position": "Phó Quản đốc Xưởng Cán",
     "address": "Lô đất số 45 đường số 2, KCN Trà Nóc 1, P. Trà Nóc, Q. Bình Thuỷ, TP. Cần Thơ",
     "image": null,
     "email": "trucnv@theptaydo.com",
-    "phone": "935277368",
+    "phone": "0935277368",
     "social_links": [
       {
         "name": "zalo",
-        "url": null,
+        "url": "https://zalo.me/0935277368",
         "icon": "fa-solid fa-z",
-        "text": null,
-        "image": null
-      },
-      {
-        "name": "facebook",
-        "url": null,
-        "icon": "fa-brands fa-facebook",
-        "text": null,
-        "image": null
-      },
-      {
-        "name": "wechat",
-        "url": null,
-        "icon": "fa-brands fa-weixin",
-        "text": null,
+        "text": "0935277368",
         "image": null
       },
       {
         "name": "phone",
         "icon": "fa-solid fa-phone",
-        "text": "935277368",
-        "url": "tel:935277368",
+        "text": "0935277368",
+        "url": "tel:0935277368",
         "image": null
       },
       {
@@ -1127,6 +1146,39 @@
         "icon": "fa-regular fa-envelope",
         "text": "trucnv@theptaydo.com",
         "url": "mailto:trucnv@theptaydo.com",
+        "image": null
+      }
+    ]
+  },
+  {
+    "id": "TSC0111",
+    "group": "Xưởng Cán",
+    "name": "Đỗ Văn Hoài",
+    "position": "Quản đốc Xưởng Cán",
+    "address": "Lô đất số 45 đường số 2, KCN Trà Nóc 1, P. Trà Nóc, Q. Bình Thuỷ, TP. Cần Thơ",
+    "image": null,
+    "email": "hoaidv@theptaydo.com",
+    "phone": "0342311630",
+    "social_links": [
+      {
+        "name": "zalo",
+        "url": "https://zalo.me/0342311630",
+        "icon": "fa-solid fa-z",
+        "text": "0342311630",
+        "image": null
+      },
+      {
+        "name": "phone",
+        "icon": "fa-solid fa-phone",
+        "text": "0342311630",
+        "url": "tel:0342311630",
+        "image": null
+      },
+      {
+        "name": "email",
+        "icon": "fa-regular fa-envelope",
+        "text": "hoaidv@theptaydo.com",
+        "url": "mailto:hoaidv@theptaydo.com",
         "image": null
       }
     ]
