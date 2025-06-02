@@ -58,23 +58,23 @@
     "social_links": [
       {
         "name": "zalo",
-        "url": null,
+        "url": "#",
         "icon": "fa-solid fa-z",
-        "text": null,
+        "text": "Chưa cập nhật",
         "image": null
       },
       {
         "name": "facebook",
-        "url": null,
+        "url": "#",
         "icon": "fa-brands fa-facebook",
-        "text": null,
+        "text": "Chưa cập nhật",
         "image": null
       },
       {
         "name": "wechat",
-        "url": null,
+        "url": "#",
         "icon": "fa-brands fa-weixin",
-        "text": null,
+        "text": "Chưa cập nhật",
         "image": null
       },
       {
@@ -119,9 +119,9 @@
       },
       {
         "name": "wechat",
-        "url": null,
+        "url": "#",
         "icon": "fa-brands fa-weixin",
-        "text": null,
+        "text": "Chưa cập nhật",
         "image": null
       },
       {
@@ -1085,20 +1085,6 @@
         "url": "https://zalo.me/976299192",
         "icon": "fa-solid fa-z",
         "text": "976299192",
-        "image": null
-      },
-      {
-        "name": "facebook",
-        "url": null,
-        "icon": "fa-brands fa-facebook",
-        "text": "Chưa có",
-        "image": null
-      },
-      {
-        "name": "wechat",
-        "url": null,
-        "icon": "fa-brands fa-weixin",
-        "text": "Chưa có",
         "image": null
       },
       {
