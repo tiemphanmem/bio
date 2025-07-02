@@ -19,7 +19,7 @@ async function updateEmployeeInfo() {
     const response = await fetch('./db/person.json');
     const data = await response.json();
     const employee = data.find(emp => emp.id.toLowerCase() === id.toLowerCase());
-    
+
     person = employee;
 
     if (employee) {
@@ -49,6 +49,12 @@ async function updateEmployeeInfo() {
           <span class='link-button-text'>(${link.text})</span>
         `;
         linksContainer.appendChild(anchor);
+
+        // Hiển thị nội dung infor (nếu có)
+        if (employee.infor) {
+          document.getElementById('employee-infor').innerHTML = employee.infor;
+        }
+
       });
 
       // ✅ Dữ liệu ok: hiển thị nội dung, ẩn skeleton
