@@ -18,7 +18,7 @@ async function updateEmployeeInfo() {
   try {
     const response = await fetch('./db/person.json');
     const data = await response.json();
-    const employee = data.find(emp => emp.id === id);
+    const employee = data.find(emp => emp.id.toLowerCase() === id.toLowerCase());
     person = employee;
 
     if (employee) {
