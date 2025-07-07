@@ -8,8 +8,6 @@ import {
   Facebook
 } from 'lucide-react';
 
-import PostTimelineItem from './PostTimelineItem';
-
 const UserCard: React.FC = () => {
   return (
     <div className="">
@@ -57,29 +55,29 @@ const UserCard: React.FC = () => {
 
               {/* Contact Info */}
               <div className="space-y-3 text-sm text-gray-700 pb-6 mb-4 border-b border-gray-200">
-                <div className="flex items-center gap-2">
+                <div className="flex items-center gap-2 hover:text-orange-500">
                   <Mail size={16} className="text-orange-500" />
-                  <span>quanght@theptaydo.com</span>
+                  <a href='mailto:quanght@theptaydo.com'>quanght@theptaydo.com</a>
                 </div>
                 <div className="flex items-center gap-2">
                   <Calendar size={16} className="text-orange-500" />
                   <span>Nov 1, 1957</span>
                 </div>
-                <div className="flex items-center gap-2">
+                <div className="flex items-center gap-2ne">
                   <User size={16} className="text-orange-500" />
                   <span>Female</span>
                 </div>
-                <div className="flex items-center gap-2">
+                <div className="flex items-center gap-2 hover:text-orange-500 ">
                   <PhoneCall size={16} className="text-orange-500" />
-                  <span>0903 500 606</span>
+                  <a href='tel:0903500606'>0903 500 606</a>
                 </div>
-                <div className="flex items-center gap-2">
+                <div className="flex items-center gap-2 hover:text-orange-500 ">
                   <Facebook size={16} className="text-orange-500" />
-                  <span>Quang Huynh Trung</span>
+                  <a href="https://facebook.com/">Quang Huynh Trung</a>
                 </div>
-                <div className="flex items-center gap-2 text-blue-600">
+                <div className="flex items-center gap-2 hover:text-orange-500 text-blue-600">
                   <LinkIcon size={16} />
-                  <a href="https://yourbio.link/jane" target="_blank" rel="noopener noreferrer">
+                  <a href="https://theptaydo.com" target="_blank" rel="noopener noreferrer">
                     https://theptaydo.com
                   </a>
                 </div>
@@ -193,16 +191,16 @@ const UserCard: React.FC = () => {
               </div>
 
 
+
+              <img src="https://theptaydo.com/files/images/logo/Logo_30nam_TTD(1).png" />
             </div>
+
+
+
+            <p className='text-center mt-6 pb-4 text-gray-400'>Development by <a href="https://dangth.dev">Davis</a></p>
           </div>
         </div>
 
-
-
-        {/* <div className="mt-10 px-6 max-w-sm mx-auto bg-white rounded-xl shadow-md pt-10 pb-6 px-6 z-10">
-          <p className='align-center'>Development by <a href="https://dangth.dev">Davis</a></p>
-        </div> */}
-        <p className='text-center mt-6 text-gray-400'>Development by <a href="https://dangth.dev">Davis</a></p>
       </div>
     </div>
   );
