@@ -91,18 +91,43 @@ const UserCard: React.FC = () => {
                 </p>
               </div>
 
-              <h2 className="text-lg font-semibold text-gray-800 text-center mb-4">Thành viên các tổ chức</h2>
+              <h2 className="text-lg font-semibold text-gray-800 text-center mb-4">Chức vụ hiện tại</h2>
               <div className="text-sm text-gray-700 pb-6 mb-4 border-b border-gray-200 leading-relaxed">
-                <ul>
-                  <li>Tổng Giám đốc - Công ty TNHH Thép Tây Đô</li>
-                  <li>Chủ tịch HĐQT - Công ty CP Kim khí Miền Trung</li>
-                  <li>Chủ tịch HĐTV - Công ty XNK Chín Rồng</li>
+                <ul className="list-disc pl-5">
+                  <li>Chủ tịch kiêm Tổng Giám đốc Công ty TNHH Thép Tây Đô</li>
+                  <li>Chủ tịch HĐQT Công ty Cổ phần Kim Khí Miền Trung (HNX: KMT)</li>
                 </ul>
               </div>
 
-              <h2 className="text-lg font-semibold text-gray-800 text-center mb-4">Đào tạo</h2>
+              <h2 className="text-lg font-semibold text-gray-800 text-center mb-4">Kinh nghiệm & vai trò nổi bật</h2>
               <div className="text-sm text-gray-700 pb-6 mb-4 border-b border-gray-200 leading-relaxed">
-                <p>Chưa cập nhật</p>
+                <ul className="list-disc pl-5">
+                  <li>Hơn 30 năm kinh nghiệm trong ngành công nghiệp thép và vật liệu xây dựng.</li>
+                  <li>Từng giữ các vị trí quản lý chủ chốt trong hệ thống Tổng Công ty Thép Việt Nam.</li>
+                  <li>Từ năm 2020, chính thức tiếp nhận và thực hiện chuyển đổi mô hình hoạt động của Công ty Thép Tây Đô từ doanh nghiệp nhà nước sang mô hình tư nhân, đưa doanh nghiệp bước vào giai đoạn tăng trưởng mạnh mẽ, hiện đại và bền vững.</li>
+                </ul>
+              </div>
+
+              <h2 className="text-lg font-semibold text-gray-800 text-center mb-4">Thành tựu nổi bật</h2>
+              <div className="text-sm text-gray-700 pb-6 mb-4 border-b border-gray-200 leading-relaxed">
+                <ul className="list-disc pl-5">
+                  <li>Dẫn dắt Thép Tây Đô đạt doanh thu vượt 4.000 tỷ đồng/năm, tăng trưởng đều đặn qua các năm.</li>
+                  <li>Tăng công suất sản xuất Phôi, Thép lên đến 250.000 tấn/năm, mở rộng thị trường xuất khẩu (Campuchia, Philippines…).</li>
+                  <li>Thúc đẩy chuyển đổi số, ứng dụng ERP, đầu tư điện mặt trời áp mái và phát triển hệ thống phân phối toàn quốc.</li>
+                </ul>
+              </div>
+
+              <h2 className="text-lg font-semibold text-gray-800 text-center mb-4">Công tác xã hội & Đảng viên</h2>
+              <div className="text-sm text-gray-700 pb-6 mb-4 border-b border-gray-200 leading-relaxed">
+                <ul className="list-disc pl-5">
+                  <li>Được trao tặng Huy hiệu 40 năm tuổi Đảng (năm 2025).</li>
+                  <li>Giữ vai trò nòng cốt trong công tác Đảng, định hướng chiến lược phát triển Đảng bộ Công ty Thép Tây Đô nhiệm kỳ 2025–2030.</li>
+                </ul>
+              </div>
+
+              <h2 className="text-lg font-semibold text-gray-800 text-center mb-4">Triết lý lãnh đạo</h2>
+              <div className="text-sm text-gray-700 pb-6 mb-4 border-b border-gray-200 leading-relaxed">
+                <p><i>“Mỗi tấn phôi, tấn thép ra lò là minh chứng cho lòng nhiệt huyết và tinh thần đoàn kết của tập thể.”</i></p>
               </div>
 
               <h2 className="text-lg font-semibold text-gray-800 text-center mb-4">Bài viết & Sự kiện</h2>
@@ -194,10 +219,7 @@ const UserCard: React.FC = () => {
                   </div>
                 ))}
               </div>
-
-
-
-              <img src="https://theptaydo.com/files/images/logo/Logo_30nam_TTD(1).png" />
+              {/* <img src="https://theptaydo.com/files/images/logo/Logo_30nam_TTD(1).png" /> */}
             </div>
 
 
