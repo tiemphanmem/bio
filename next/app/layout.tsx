@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "ARTKEY ",
-  description: "Khai mở tiềm năng sáng tạo của trẻ",
+  title: "BIO LINK TSC",
+  description: "Thông tin hi tiết Huỳnh Trung Quang",
 };
 
 export default function RootLayout({
