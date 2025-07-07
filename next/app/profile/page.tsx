@@ -23,7 +23,7 @@ const UserCard: React.FC = () => {
               {/* Avatar - lớn, không viền, đổ bóng mạnh */}
               <div className="absolute -top-16 left-1/2 transform -translate-x-1/2">
                 <img
-                  src="https://bio.theptaydo.vn/images/avatar/TSC0001.png"
+                  src="https://github.com/tscltd/bio/blob/main/TSC0001.png?raw=true"
                   alt="Maria Elliott"
                   className="w-32 h-32 rounded-full object-cover shadow-[0_12px_32px_rgba(0,0,0,0.5)]"
                 />
