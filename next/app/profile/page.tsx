@@ -118,7 +118,8 @@ const UserCard: React.FC = () => {
                     title: 'LỄ TRAO TẶNG HUY HIỆU ĐẢNG CHO ĐỒNG CHÍ HUỲNH TRUNG QUANG',
                     content:
                       'Trong không khí trang nghiêm và đầy tự hào, sáng ngày 04/06/2025, Đảng bộ Quận Bình Thủy phối hợp cùng Đảng bộ Công ty TNHH Thép Tây Đô long trọng tổ chức Lễ trao tặng Huy hiệu 40 năm tuổi Đảng cho đồng chí Huỳnh Trung Quang – Tổng Giám đốc Công ty Thép Tây Đô.',
-                    image: 'https://theptaydo.com/files/images/TIN%20TUC/2025/ki-niem-40nam-tuoi-dang/IMG_8834.jpg'
+                    image: 'https://theptaydo.com/files/images/TIN%20TUC/2025/ki-niem-40nam-tuoi-dang/IMG_8834.jpg',
+                    link: "https://theptaydo.com/thep-tay-do-tu-hao-voi-le-trao-tang-huy-hieu-dang-cho-dong-chi-huynh-trung-quang"
                   },
                   {
                     date: '23/05/2025',
@@ -128,7 +129,8 @@ const UserCard: React.FC = () => {
                     title: 'THÉP TÂY ĐÔ ĐỒNG HÀNH CÙNG NGÀY HỘI THANH NIÊN CÔNG NHÂN 2025 ',
                     content:
                       'Trong không khí hân hoan chào đón Tháng Công nhân – tháng tôn vinh những đóng góp thầm lặng của lực lượng lao động – và kỷ niệm 135 năm ngày sinh Chủ tịch Hồ Chí Minh, Ban Thường vụ Thành đoàn Cần Thơ đã phối hợp với Công ty TNHH Thép Tây Đô tổ chức thành công “Ngày hội Thanh niên Công nhân 2025”.',
-                    image: 'https://theptaydo.com/files/images/TIN%20TUC/2025/tiec-le/5-22-ngay-hoi-hien-mau/f22277049de428ba71f51.jpg'
+                    image: 'https://theptaydo.com/files/images/TIN%20TUC/2025/tiec-le/5-22-ngay-hoi-hien-mau/f22277049de428ba71f51.jpg',
+                    link: "https://theptaydo.com/thep-tay-do-dong-hanh-cung-ngay-hoi-thanh-nien-cong-nhan-2025"
                   },
                   {
                     date: '21/04/2025',
@@ -138,7 +140,8 @@ const UserCard: React.FC = () => {
                     title: 'HỘI NGHỊ TIẾP XÚC CỬ TRI VỚI THỦ TƯỚNG - CÔNG TY TNHH THÉP TÂY ĐÔ',
                     content:
                       'Cử tri Huỳnh Trung Quang - Tổng Giám đốc Công ty TNHH Thép Tây Đô phát biểu tại hội nghị tiếp xúc cử tri với thủ tướng năm 2025.',
-                    image: 'https://github.com/tscltd/del--e-office/blob/main/b2bdd8fa-fd24-47d4-adfa-e1941713dbb9.jpg?raw=true'
+                    image: 'https://github.com/tscltd/del--e-office/blob/main/b2bdd8fa-fd24-47d4-adfa-e1941713dbb9.jpg?raw=true',
+                    link: "https://www.youtube.com/watch?v=dg-UU3RaFUc"
                   },
                   {
                     date: '23/09/2024',
@@ -148,7 +151,8 @@ const UserCard: React.FC = () => {
                     title: 'Công ty Thép Tây Đô Hỗ Trợ Đồng Bào Lào Cai khắc phục hậu quả sau cơn bão số 3',
                     content:
                       'Vừa qua, hưởng ứng lời kêu gọi của Ủy ban Trung ương Mặt trận Tổ quốc Việt Nam và chia sẻ với những mất mát do cơn bão số 3 (Yagi) gây ra, Công ty Thép Tây Đô đã tham gia cùng Tổng công ty Thép Việt Nam - CTCP (VNSTEEL) trong hoạt động cứu trợ. Thép Tây Đô đã trao tặng 10 tấn gạo và các nhu yếu phẩm cần thiết cho người dân huyện Bắc Hà, tỉnh Lào Cai, với tổng giá trị 500 triệu đồng.',
-                    image: 'https://theptaydo.com/files/images/ung-ho-lu-lut/460713569_491539506980520_4530219061342069625_n.jpg'
+                    image: 'https://theptaydo.com/files/images/ung-ho-lu-lut/460713569_491539506980520_4530219061342069625_n.jpg',
+                    link: "https://theptaydo.com/tong-cong-ty-thep-viet-nam-va-cong-ty-thep-tay-do-chung-tay-ho-tro-dong-bao-lao-cai"
                   }, {
                     date: '30/01/2024',
                     time: '20:39',
@@ -157,7 +161,8 @@ const UserCard: React.FC = () => {
                     title: 'Trao 50 tấn gạo và dụng cụ học tập cho người dân, học sinh khó khăn huyện Tây Giang',
                     content:
                       'Sáng nay 30/01/2024, UBND huyện Tây Giang phối hợp với Công ty Thép Tây Đô (TP.Cần Thơ) và Công ty CP Công nghệ mặt trời Đông Dương (TP.Đà Nẵng) tổ chức chương trình tiếp nhận, trao tặng gạo cùng dụng cụ học tập cho người dân và học sinh khó khăn nhân dịp Tết Nguyên đán Giáp Thìn 2024.',
-                    image: 'https://theptaydo.com/files/images/TIN%20TUC/2024/20240130.jpg'
+                    image: 'https://theptaydo.com/files/images/TIN%20TUC/2024/20240130.jpg',
+                    link: "https://theptaydo.com/trao-50-tan-gao-va-dung-cu-hoc-tap-cho-nguoi-dan-hoc-sinh-kho-khan-huyen-tay-giang"
                   },
 
                   //https://github.com/tscltd/del--e-office/blob/main/b2bdd8fa-fd24-47d4-adfa-e1941713dbb9.jpg?raw=true
@@ -178,7 +183,7 @@ const UserCard: React.FC = () => {
                       <span className="font-semibold text-gray-800 text-sm">{post.author}</span>
                     </div>
 
-                    <p className="text-red-600 font-semibold mb-1">{post.title}</p>
+                    <a href={post.link} className="text-red-600 font-semibold mb-1 hover:text-blue">{post.title}</a>
                     <p className="text-sm text-gray-700 whitespace-pre-line">{post.content}</p>
 
                     <img
