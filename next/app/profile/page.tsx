@@ -23,7 +23,7 @@ const UserCard: React.FC = () => {
               {/* Avatar - lớn, không viền, đổ bóng mạnh */}
               <div className="absolute -top-16 left-1/2 transform -translate-x-1/2">
                 <img
-                  src="https://github.com/tscltd/del--e-office/blob/main/TSC0001.png?raw=true"
+                  src="/avt/quanght.png"
                   alt="Maria Elliott"
                   className="w-32 h-32 rounded-full object-cover shadow-[0_12px_32px_rgba(0,0,0,0.5)]"
                 />
@@ -63,7 +63,7 @@ const UserCard: React.FC = () => {
                   <Calendar size={16} className="text-orange-500" />
                   <span>Nov 1, 1957</span>
                 </div>
-                <div className="flex items-center gap-2ne">
+                <div className="flex items-center gap-2">
                   <User size={16} className="text-orange-500" />
                   <span>Female</span>
                 </div>
@@ -71,10 +71,10 @@ const UserCard: React.FC = () => {
                   <PhoneCall size={16} className="text-orange-500" />
                   <a href='tel:0903500606'>0903 500 606</a>
                 </div>
-                <div className="flex items-center gap-2 hover:text-orange-500 ">
+                {/* <div className="flex items-center gap-2 hover:text-orange-500 ">
                   <Facebook size={16} className="text-orange-500" />
                   <a href="https://facebook.com/">Quang Huynh Trung</a>
-                </div>
+                </div> */}
                 <div className="flex items-center gap-2 hover:text-orange-500 text-blue-600">
                   <LinkIcon size={16} />
                   <a href="https://theptaydo.com" target="_blank" rel="noopener noreferrer">
@@ -143,7 +143,7 @@ const UserCard: React.FC = () => {
                     title: 'LỄ TRAO TẶNG HUY HIỆU ĐẢNG CHO ĐỒNG CHÍ HUỲNH TRUNG QUANG',
                     content:
                       'Trong không khí trang nghiêm và đầy tự hào, sáng ngày 04/06/2025, Đảng bộ Quận Bình Thủy phối hợp cùng Đảng bộ Công ty TNHH Thép Tây Đô long trọng tổ chức Lễ trao tặng Huy hiệu 40 năm tuổi Đảng cho đồng chí Huỳnh Trung Quang – Tổng Giám đốc Công ty Thép Tây Đô.',
-                    image: 'https://theptaydo.com/files/images/TIN%20TUC/2025/ki-niem-40nam-tuoi-dang/IMG_8834.jpg',
+                    image: 'https://theptaydo.com/files/images/TIN%20TUC/2025/ki-niem-40nam-tuoi-dang/IMG_8809.jpg',
                     link: "https://theptaydo.com/thep-tay-do-tu-hao-voi-le-trao-tang-huy-hieu-dang-cho-dong-chi-huynh-trung-quang"
                   },
                   {
@@ -154,7 +154,7 @@ const UserCard: React.FC = () => {
                     title: 'THÉP TÂY ĐÔ ĐỒNG HÀNH CÙNG NGÀY HỘI THANH NIÊN CÔNG NHÂN 2025 ',
                     content:
                       'Trong không khí hân hoan chào đón Tháng Công nhân – tháng tôn vinh những đóng góp thầm lặng của lực lượng lao động – và kỷ niệm 135 năm ngày sinh Chủ tịch Hồ Chí Minh, Ban Thường vụ Thành đoàn Cần Thơ đã phối hợp với Công ty TNHH Thép Tây Đô tổ chức thành công “Ngày hội Thanh niên Công nhân 2025”.',
-                    image: 'https://theptaydo.com/files/images/TIN%20TUC/2025/tiec-le/5-22-ngay-hoi-hien-mau/f22277049de428ba71f51.jpg',
+                    image: 'https://theptaydo.com/files/images/TIN%20TUC/2025/tiec-le/5-22-ngay-hoi-hien-mau/524cc19329739c2dc56212.jpg',
                     link: "https://theptaydo.com/thep-tay-do-dong-hanh-cung-ngay-hoi-thanh-nien-cong-nhan-2025"
                   },
                   {
