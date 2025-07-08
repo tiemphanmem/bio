@@ -65,7 +65,7 @@ const UserCard: React.FC = () => {
                 </div>
                 <div className="flex items-center gap-2">
                   <User size={16} className="text-orange-500" />
-                  <span>Female</span>
+                  <span>Male</span>
                 </div>
                 <div className="flex items-center gap-2 hover:text-orange-500 ">
                   <PhoneCall size={16} className="text-orange-500" />
