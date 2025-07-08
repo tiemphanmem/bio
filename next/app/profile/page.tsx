@@ -5,7 +5,6 @@ import {
   User,
   Link as LinkIcon,
   PhoneCall,
-  Facebook
 } from 'lucide-react';
 
 const UserCard: React.FC = () => {
