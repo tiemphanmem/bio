@@ -14,6 +14,7 @@ interface Article {
 }
 
 interface StaffData {
+  staffCode: string;
   name: string;
   position: string;
   avatar: string;
@@ -35,6 +36,7 @@ interface StaffData {
 
 const StaffForm: React.FC = () => {
   const [formData, setFormData] = useState<StaffData>({
+    staffCode: '',
     name: '',
     position: '',
     avatar: '',
@@ -108,6 +110,15 @@ const StaffForm: React.FC = () => {
       <div className="grid grid-cols-2 gap-4">
         <input
           type="text"
+          placeholder="Mã nhân viên"
+          name="staffCode"
+          value={formData.staffCode}
+          onChange={handleChange}
+          className="border p-2"
+        />
+
+        <input
+          type="text"
           placeholder="Họ tên"
           name="name"
           value={formData.name}
@@ -128,7 +139,7 @@ const StaffForm: React.FC = () => {
           name="avatar"
           value={formData.avatar}
           onChange={handleChange}
-          className="border p-2 col-span-2"
+          className="border p-2"
         />
 
         <select
