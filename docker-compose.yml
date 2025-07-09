@@ -1,0 +1,23 @@
+services:
+  tsc-profile:
+    build: .
+    container_name: tsc-profile
+    expose:
+      - "3000"
+    networks:
+      - webnet
+
+  nginx:
+    image: nginx:alpine
+    container_name: nginx-reverse
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx/profile.conf:/etc/nginx/conf.d/default.conf
+    depends_on:
+      - tsc-profile
+    networks:
+      - webnet
+
+networks:
+  webnet:
