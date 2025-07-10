@@ -100,7 +100,7 @@ const profileData: ProfileData = {
           date: '12/06/2025',
           time: '13:58',
           author: 'Thép Tây Đô',
-          avatar: 'https://theptaydo.com/files/images/logo/Logo_30nam_TTD(1).png',
+          avatar: '/images/logo/logodelta.png',
           title: 'LỄ TRAO TẶNG HUY HIỆU ĐẢNG CHO ĐỒNG CHÍ HUỲNH TRUNG QUANG',
           content:
             'Trong không khí trang nghiêm và đầy tự hào, sáng ngày 04/06/2025, Đảng bộ Quận Bình Thủy phối hợp cùng Đảng bộ Công ty TNHH Thép Tây Đô long trọng tổ chức Lễ trao tặng Huy hiệu 40 năm tuổi Đảng cho đồng chí Huỳnh Trung Quang – Tổng Giám đốc Công ty Thép Tây Đô.',
@@ -111,7 +111,7 @@ const profileData: ProfileData = {
           date: '23/05/2025',
           time: '20:39',
           author: 'Thép Tây Đô',
-          avatar: 'https://theptaydo.com/files/images/logo/Logo_30nam_TTD(1).png',
+          avatar: '/images/logo/logodelta.png',
           title: 'THÉP TÂY ĐÔ ĐỒNG HÀNH CÙNG NGÀY HỘI THANH NIÊN CÔNG NHÂN 2025 ',
           content:
             'Trong không khí hân hoan chào đón Tháng Công nhân – tháng tôn vinh những đóng góp thầm lặng của lực lượng lao động – và kỷ niệm 135 năm ngày sinh Chủ tịch Hồ Chí Minh, Ban Thường vụ Thành đoàn Cần Thơ đã phối hợp với Công ty TNHH Thép Tây Đô tổ chức thành công “Ngày hội Thanh niên Công nhân 2025”.',
@@ -122,7 +122,7 @@ const profileData: ProfileData = {
           date: '21/04/2025',
           time: '20:39',
           author: 'Thép Tây Đô',
-          avatar: 'https://theptaydo.com/files/images/logo/Logo_30nam_TTD(1).png',
+          avatar: '/images/logo/logodelta.png',
           title: 'HỘI NGHỊ TIẾP XÚC CỬ TRI VỚI THỦ TƯỚNG - CÔNG TY TNHH THÉP TÂY ĐÔ',
           content:
             'Cử tri Huỳnh Trung Quang - Tổng Giám đốc Công ty TNHH Thép Tây Đô phát biểu tại hội nghị tiếp xúc cử tri với thủ tướng năm 2025.',
@@ -133,7 +133,7 @@ const profileData: ProfileData = {
           date: '23/09/2024',
           time: '20:39',
           author: 'Thép Tây Đô',
-          avatar: 'https://theptaydo.com/files/images/logo/Logo_30nam_TTD(1).png',
+          avatar: '/images/logo/logodelta.png',
           title: 'Công ty Thép Tây Đô Hỗ Trợ Đồng Bào Lào Cai khắc phục hậu quả sau cơn bão số 3',
           content:
             'Vừa qua, hưởng ứng lời kêu gọi của Ủy ban Trung ương Mặt trận Tổ quốc Việt Nam và chia sẻ với những mất mát do cơn bão số 3 (Yagi) gây ra, Công ty Thép Tây Đô đã tham gia cùng Tổng công ty Thép Việt Nam - CTCP (VNSTEEL) trong hoạt động cứu trợ. Thép Tây Đô đã trao tặng 10 tấn gạo và các nhu yếu phẩm cần thiết cho người dân huyện Bắc Hà, tỉnh Lào Cai, với tổng giá trị 500 triệu đồng.',
@@ -143,7 +143,7 @@ const profileData: ProfileData = {
           date: '30/01/2024',
           time: '20:39',
           author: 'Thép Tây Đô',
-          avatar: 'https://theptaydo.com/files/images/logo/Logo_30nam_TTD(1).png',
+          avatar: '/images/logo/logodelta.png',
           title: 'Trao 50 tấn gạo và dụng cụ học tập cho người dân, học sinh khó khăn huyện Tây Giang',
           content:
             'Sáng nay 30/01/2024, UBND huyện Tây Giang phối hợp với Công ty Thép Tây Đô (TP.Cần Thơ) và Công ty CP Công nghệ mặt trời Đông Dương (TP.Đà Nẵng) tổ chức chương trình tiếp nhận, trao tặng gạo cùng dụng cụ học tập cho người dân và học sinh khó khăn nhân dịp Tết Nguyên đán Giáp Thìn 2024.',
