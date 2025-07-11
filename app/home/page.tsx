@@ -25,6 +25,10 @@ interface Section {
 }
 
 interface ProfileData {
+  user: {
+    id: string;
+    uname: string;
+  },
   about: {
     name: string;
     role: string;
@@ -41,6 +45,10 @@ interface ProfileData {
 }
 
 const profileData: ProfileData = {
+  user: {
+    id: "TSC0001",
+    uname: "quanght"
+  },
   about: {
     name: "Huỳnh Trung Quang",
     role: "Tổng Giám đốc công ty Thép Tây Đô",
