@@ -395,7 +395,7 @@ export const profiles: ProfileData[] = [
   {
     user: {
       id: 'TSC0189',
-      uname: 'thanhpdt',
+      uname: 'thanhpd',
     },
     about: {
       name: 'Phan Đình Thanh',
@@ -599,7 +599,7 @@ export const profiles: ProfileData[] = [
   {
     user: {
       id: 'TSC0546',
-      uname: 'hieuntt',
+      uname: 'hieunt',
     },
     about: {
       name: 'Nguyễn Thị Hiếu',
@@ -650,7 +650,7 @@ export const profiles: ProfileData[] = [
   {
     user: {
       id: 'TSC0475',
-      uname: 'tranphtt',
+      uname: 'tranpht',
     },
     about: {
       name: 'Phạm Huỳnh Thảo Trân',
