@@ -174,6 +174,116 @@ export const profiles: ProfileData[] = [
   },
   {
     user: {
+      id: 'TSC0002',
+      uname: 'anhhn',
+    },
+    about: {
+      name: 'Huỳnh Nam Anh',
+      role: 'Phó Tổng Giám đốc Kinh doanh quốc tế',
+      avatar: '',
+    },
+    contact: {
+      email: 'anhhn@theptaydo.com',
+      // email: 'anhhn@theptaydo.com',
+      birthdate: '1996',
+      gender: 'Nam',
+      phone: '0939201778',
+      website: 'https://theptaydo.com',
+    },
+    sections: [
+      {
+        title: 'Mô tả',
+        content: '',
+      },
+      {
+        title: 'Chức vụ hiện tại',
+        content: [
+          'Phó Tổng Giám đốc Kinh doanh quốc tế Công ty TNHH Thép Tây Đô',
+        ],
+      },
+      {
+        title: 'Kinh nghiệm & vai trò nổi bật',
+        content: [
+          // 'Từ năm 1994 - 1996: Công tác tại Cục thuế Kiên Giang',
+          // 'Từ năm 1996 - 10/1998, phụ trách Bộ phận Kế toán của Công ty Xổ số Kiên Giang',
+        ],
+      },
+      {
+        title: 'Thành tựu nổi bật',
+        content: [],
+      },
+      {
+        title: 'Công tác xã hội & Đảng viên',
+        content: [],
+      },
+      {
+        title: 'Triết lý lãnh đạo',
+        content: '',
+      },
+      {
+        title: 'Bài viết & Sự kiện',
+        type: 'articles',
+        content: [],
+      },
+    ],
+  },
+  {
+    user: {
+      id: 'TSC0864',
+      uname: 'tranghk',
+    },
+    about: {
+      name: 'Hoàng Khánh Trang',
+      role: 'Trợ lý Tổng Giám đốc',
+      avatar: '',
+    },
+    contact: {
+      email: 'tranghk@theptaydo.com',
+      // email: 'anhhn@theptaydo.com',
+      birthdate: '1994',
+      gender: 'Nữ',
+      phone: '0888326495',
+      website: 'https://theptaydo.com',
+    },
+    sections: [
+      {
+        title: 'Mô tả',
+        content: '',
+      },
+      {
+        title: 'Chức vụ hiện tại',
+        content: [
+          'Trợ lý Tổng Giám đốc Công ty TNHH Thép Tây Đô',
+        ],
+      },
+      {
+        title: 'Kinh nghiệm & vai trò nổi bật',
+        content: [
+          // 'Từ năm 1994 - 1996: Công tác tại Cục thuế Kiên Giang',
+          // 'Từ năm 1996 - 10/1998, phụ trách Bộ phận Kế toán của Công ty Xổ số Kiên Giang',
+        ],
+      },
+      {
+        title: 'Thành tựu nổi bật',
+        content: [],
+      },
+      {
+        title: 'Công tác xã hội & Đảng viên',
+        content: [],
+      },
+      {
+        title: 'Triết lý lãnh đạo',
+        content: '',
+      },
+      {
+        title: 'Bài viết & Sự kiện',
+        type: 'articles',
+        content: [],
+      },
+    ],
+  },
+  {
+    user: {
       id: 'TSC0003',
       uname: 'hungddt',
     },
@@ -383,7 +493,7 @@ export const profiles: ProfileData[] = [
   {
     user: {
       id: 'TSC0305',
-      uname: 'loantkn',
+      uname: 'loanntk',
     },
     about: {
       name: 'Nguyễn Thị Kim Loan',
@@ -740,7 +850,7 @@ export const profiles: ProfileData[] = [
   {
     user: {
       id: 'TSC0151',
-      uname: 'thaihvt',
+      uname: 'thaihv',
     },
     about: {
       name: 'Hứa Viết Thái',
@@ -791,7 +901,7 @@ export const profiles: ProfileData[] = [
   {
     user: {
       id: 'TSC0847',
-      uname: 'nguyentvv',
+      uname: 'nguyentv',
     },
     about: {
       name: 'Trần Võ Nguyên',
