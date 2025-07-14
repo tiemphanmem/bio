@@ -126,7 +126,7 @@ export const profiles: ProfileData[] = [
     about: {
       name: 'Võ Văn Khải',
       role: 'Phó Tổng Giám Đốc Kinh doanh',
-      avatar: '',
+      avatar: '/avt/default.png',
     },
     contact: {
       email: '',
@@ -180,12 +180,12 @@ export const profiles: ProfileData[] = [
     about: {
       name: 'Huỳnh Nam Anh',
       role: 'Phó Tổng Giám đốc Kinh doanh quốc tế',
-      avatar: '',
+      avatar: '/avt/default.png',
     },
     contact: {
       email: 'anhhn@theptaydo.com',
       // email: 'anhhn@theptaydo.com',
-      birthdate: '1996',
+      birthdate: '1997',
       gender: 'Nam',
       phone: '0939201778',
       website: 'https://theptaydo.com',
@@ -235,14 +235,69 @@ export const profiles: ProfileData[] = [
     about: {
       name: 'Hoàng Khánh Trang',
       role: 'Trợ lý Tổng Giám đốc',
-      avatar: '',
+      avatar: '/avt/default.png',
     },
     contact: {
       email: 'tranghk@theptaydo.com',
       // email: 'anhhn@theptaydo.com',
-      birthdate: '1994',
+      birthdate: '1995',
       gender: 'Nữ',
       phone: '0888326495',
+      website: 'https://theptaydo.com',
+    },
+    sections: [
+      {
+        title: 'Mô tả',
+        content: '',
+      },
+      {
+        title: 'Chức vụ hiện tại',
+        content: [
+          'Trợ lý Tổng Giám đốc Công ty TNHH Thép Tây Đô',
+        ],
+      },
+      {
+        title: 'Kinh nghiệm & vai trò nổi bật',
+        content: [
+          // 'Từ năm 1994 - 1996: Công tác tại Cục thuế Kiên Giang',
+          // 'Từ năm 1996 - 10/1998, phụ trách Bộ phận Kế toán của Công ty Xổ số Kiên Giang',
+        ],
+      },
+      {
+        title: 'Thành tựu nổi bật',
+        content: [],
+      },
+      {
+        title: 'Công tác xã hội & Đảng viên',
+        content: [],
+      },
+      {
+        title: 'Triết lý lãnh đạo',
+        content: '',
+      },
+      {
+        title: 'Bài viết & Sự kiện',
+        type: 'articles',
+        content: [],
+      },
+    ],
+  },
+  {
+    user: {
+      id: 'TSC0671',
+      uname: 'hoanq',
+    },
+    about: {
+      name: 'Nguyễn Quỳnh Hoa',
+      role: 'Chuyên viên Kiểm soát nội bộ',
+      avatar: '/avt/default.png',
+    },
+    contact: {
+      email: 'hoanq@theptaydo.com',
+      // email: 'anhhn@theptaydo.com',
+      birthdate: '1996',
+      gender: 'Nữ',
+      phone: '0776837666',
       website: 'https://theptaydo.com',
     },
     sections: [
@@ -290,7 +345,7 @@ export const profiles: ProfileData[] = [
     about: {
       name: 'Đào Duy Tuấn Hùng',
       role: 'Phó Tổng Giám Đốc Quản lý Chất lượng',
-      avatar: '',
+      avatar: '/avt/default.png',
     },
     contact: {
       email: '',
@@ -345,7 +400,7 @@ export const profiles: ProfileData[] = [
     about: {
       name: 'Phan Đình Thanh',
       role: 'Phó Tổng Giám đốc Kỹ thuật',
-      avatar: '',
+      avatar: '/avt/default.png',
     },
     contact: {
       email: '',
@@ -396,7 +451,7 @@ export const profiles: ProfileData[] = [
     about: {
       name: 'Nguyễn Phan Kiều Vân',
       role: 'Trưởng Ban kiểm soát nội bộ',
-      avatar: '',
+      avatar: '/avt/default.png',
     },
     contact: {
       email: '',
@@ -447,7 +502,7 @@ export const profiles: ProfileData[] = [
     about: {
       name: 'Dương Văn Hiệp',
       role: 'Kế toán trưởng',
-      avatar: '',
+      avatar: '/avt/default.png',
     },
     contact: {
       email: '',
@@ -498,7 +553,7 @@ export const profiles: ProfileData[] = [
     about: {
       name: 'Nguyễn Thị Kim Loan',
       role: 'Phó phòng Kế toán tài chính',
-      avatar: '',
+      avatar: '/avt/default.png',
     },
     contact: {
       email: '',
@@ -549,7 +604,7 @@ export const profiles: ProfileData[] = [
     about: {
       name: 'Nguyễn Thị Hiếu',
       role: 'Phó phòng Kế toán tài chính',
-      avatar: '',
+      avatar: '/avt/default.png',
     },
     contact: {
       email: '',
@@ -600,7 +655,7 @@ export const profiles: ProfileData[] = [
     about: {
       name: 'Phạm Huỳnh Thảo Trân',
       role: 'Thư ký Tổng Giám đốc kiêm Phó chánh văn phòng',
-      avatar: '',
+      avatar: '/avt/default.png',
     },
     contact: {
       email: '',
@@ -651,7 +706,7 @@ export const profiles: ProfileData[] = [
     about: {
       name: 'Nguyễn Văn Thịnh',
       role: 'Trưởng phòng Kế hoạch Kinh doanh',
-      avatar: '',
+      avatar: '/avt/default.png',
     },
     contact: {
       email: '',
@@ -702,7 +757,7 @@ export const profiles: ProfileData[] = [
     about: {
       name: 'Nguyễn My Sên',
       role: 'Phó phòng Kế hoạch Kinh doanh',
-      avatar: '',
+      avatar: '/avt/default.png',
     },
     contact: {
       email: '',
@@ -753,7 +808,7 @@ export const profiles: ProfileData[] = [
     about: {
       name: 'Nguyễn Văn Chung',
       role: 'Phó phòng Kế hoạch Kinh doanh',
-      avatar: '',
+      avatar: '/avt/default.png',
     },
     contact: {
       email: '',
@@ -804,7 +859,7 @@ export const profiles: ProfileData[] = [
     about: {
       name: 'Võ Phạm Hùng Mạnh',
       role: 'Chuyên viên Xuất Nhập khẩu',
-      avatar: '',
+      avatar: '/avt/default.png',
     },
     contact: {
       email: '',
@@ -855,7 +910,7 @@ export const profiles: ProfileData[] = [
     about: {
       name: 'Hứa Viết Thái',
       role: 'Trưởng phòng Kỹ thuật',
-      avatar: '',
+      avatar: '/avt/default.png',
     },
     contact: {
       email: '',
@@ -906,7 +961,7 @@ export const profiles: ProfileData[] = [
     about: {
       name: 'Trần Võ Nguyên',
       role: 'Trưởng văn phòng đại diện tại HCM',
-      avatar: '',
+      avatar: '/avt/default.png',
     },
     contact: {
       email: '',
